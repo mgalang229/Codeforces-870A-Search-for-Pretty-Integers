@@ -20,7 +20,7 @@ int main() {
 		for (int j = 0; j < m; j++) {
 			// there are two cases:
 			// case 1: if a number exists in both lists, then find the minimum number
-			// case 2: form a two-digit number using elements from sequence A and B (find the minimum as well)
+			// case 2: form a two-digit number using elements from sequences A and B (find the minimum as well)
 			if (a[i] == b[j]) {
 				ans = min(ans, a[i]);
 			} else {
