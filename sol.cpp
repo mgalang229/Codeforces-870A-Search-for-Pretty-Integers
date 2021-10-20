@@ -15,7 +15,7 @@ int main() {
 	for (int i = 0; i < m; i++) {
 		cin >> b[i];
 	}
-	// find the smallest integers that present in both list (if it exists)
+	// find the smallest integer that present in both list (if it exists)
 	int mn = INT_MAX;
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
