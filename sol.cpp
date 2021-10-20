@@ -28,7 +28,7 @@ int main() {
 		cout << mn << '\n';
 		return 0;
 	}
-	// otherwise, combine the two smallest elements in both sequence
+	// otherwise, combine the two smallest elements from both lists
 	set<int> s = {*min_element(a.begin(), a.end()), *min_element(b.begin(), b.end())};
 	for (auto& e : s) {
 		cout << e;
